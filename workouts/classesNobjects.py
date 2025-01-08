@@ -18,7 +18,7 @@ print(lenovo.price)'''
 
 # Exercise 2
 
-'''class laptop:
+class laptop:
     def __init__(self):
         self.brand = ""
         self.ram = ""
@@ -47,7 +47,7 @@ lenovo.storage = "250 ssd"
         
 hp.display()  
 dell.display()  
-lenovo.display()'''
+lenovo.display()
 
 # Exercise 3 
 class student:
