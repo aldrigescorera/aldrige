@@ -118,3 +118,23 @@ number.add(1,2)
 number.sub(5,6)
 number.mul(4,8)
 number.div(10,2)
+
+# Exercise 7 / Class parameter
+
+class laptop:
+    def __init__(self):
+        self.brand = ""
+        self.price= "10000"
+    def setprice(self,newpr):
+        self.price = newpr
+
+    def getprice(self):
+        if self.price == "10000":
+            print("noo change in price")
+        else:
+            print("Newprice is : "+self.price)
+
+hp=laptop()
+hp.getprice()
+hp.setprice("30000")
+hp.getprice()
